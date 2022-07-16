@@ -1,0 +1,15 @@
+#play{
+
+}
+#vidplay{
+    width: 400px;
+    height: 300px;
+}
+.orange600{
+    width:200px;
+    height:100px;
+    color: black;
+}
+#top{
+    display: flex;
+}
