@@ -1,0 +1,28 @@
+.outside{
+  
+    width:100%;
+    height:100vh;
+    
+ background-image: linear-gradient(yellow ,red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.outside .inside{
+    border-radius: 50%;
+    width:400px;
+    height  :350px;
+    background-color: black;
+    transition: 2s;
+    box-shadow: 10px 10px 5px grey;
+}
+.inside:hover{
+transform: translateX(200px);
+transform: translateX(-200px);
+transform: translate(200px,-200px);
+transform: rotate(3600deg);
+/* transform:scale(2); */
+/* transform: skew(-40deg,-15deg ); */
+
+}
